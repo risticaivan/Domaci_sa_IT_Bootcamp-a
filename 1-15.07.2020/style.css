@@ -1,0 +1,134 @@
+body {
+    font-family: 'Sora', sans-serif;
+    background-color: rgb(0, 0, 0);
+    user-select: none;
+}
+
+h1 {
+    margin-top: 40px;
+    text-align: center;
+    text-shadow: 0 0 3px rgb(255, 255, 255);
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    color: white;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+p {
+    text-align: center;
+    margin: 40px 20px 60px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 10px;;
+}
+
+#byivan {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+#topimages {
+    text-align: center;
+    margin-top: 50px;   
+}
+
+.topimage {
+    width: 200px;
+    margin: 25px;
+    border: 2px solid rgb(44, 44, 44);
+    border-radius: 5px;
+    box-shadow: 0px 1px 20px 2px rgb(163, 163, 163);
+    transition: 1s;
+}
+
+.topimage:hover {
+    width: 200px;
+    margin: 25px;
+    border: 2px solid rgb(255, 145, 0);
+    border-radius: 5px;
+    box-shadow: 0px 1px 20px 2px rgb(139, 0, 167);
+}
+
+#icons {
+    text-align: center;
+    margin: 10px 0px 50px 0px;
+}
+
+.icons {
+    width: 60px;
+    margin: 10px 50px 10px 50px;
+    transition: 1s;
+}
+
+.icons:hover {
+    width: 70px;
+    margin: 0px 40px 0px 40px;
+}
+
+.info {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.infopar {
+    margin: 0px 180px 0px 180px;
+}
+
+ #citati {
+    color: white;
+    margin: 20px 0px 60px 0px;
+    text-align: center;
+}
+
+#citatinaslov {
+    margin-top: 60px;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+dt {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 3px rgb(255, 255, 255);
+}
+
+dd {
+    font-size: 12px;
+    font-style: italic;
+}
+
+footer {
+    padding: 20px 10px 20px 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(17, 17, 17);
+ }
+
+ .futerp {
+     margin: 5px 0px 0px 0px;
+     color: white;
+ }
+
+a:link { 
+    text-decoration: none; 
+    color: white;
+    transition: 0.5s;
+} 
+
+a:visited {
+    color: white;
+}
+
+a:hover { 
+    text-decoration: none;
+    color: orangered;
+} 
