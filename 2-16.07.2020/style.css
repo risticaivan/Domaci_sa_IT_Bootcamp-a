@@ -1,0 +1,42 @@
+body {
+    margin: 0px 150px 0px 150px;
+}
+
+
+
+.slika {
+    width: 200px;
+    height: 270px;
+}
+
+.slika2 {
+    width: 100px;
+    height: 145px;
+}
+
+#gornjatabela {
+    width: 60%;
+    padding: 5px;
+}
+
+#tbpar {
+    border-bottom: solid 15px white;
+    box-sizing: border-box;
+}
+
+#donjatabela {
+    border: solid white;
+}
+
+.tdslika {
+    box-sizing: border-box;
+}
+
+#donjatabela :nth-child(even){
+    width: 200px;
+    text-align: left;
+}
+
+table th {
+    border-bottom: solid 15px white;
+}
