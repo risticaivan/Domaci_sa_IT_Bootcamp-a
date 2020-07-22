@@ -88,7 +88,7 @@ p {
     margin: 0px 180px 0px 180px;
 }
 
- #citati {
+#citati {
     color: white;
     margin: 20px 0px 60px 0px;
     text-align: center;
@@ -118,22 +118,102 @@ footer {
     background-color: rgb(17, 17, 17);
  }
 
+ #btt  {
+    text-align: center;
+    margin-top: 25px;
+}
+
  .futerp {
      margin: 5px 0px 0px 0px;
      color: white;
  }
 
-a:link { 
+ /* a:visited {
+    color: white;
+} */
+
+a { 
     text-decoration: none; 
     color: white;
     transition: 0.5s;
 } 
 
-a:visited {
-    color: white;
-}
 
 a:hover { 
-    text-decoration: none;
+    
     color: orangered;
 } 
+
+
+@media screen and (max-width: 1110px) {
+
+    h1 {
+        font-size: 40px;
+        margin-top: 20px;
+        text-align: center;
+        text-shadow: 0 0 13px rgb(255, 255, 255);
+        color: white;
+    }
+
+    .topimage {
+        width: 200px;
+        margin: 25px;
+        border: 2px solid rgb(44, 44, 44);
+        border-radius: 5px;
+        box-shadow: 0px 1px 20px 2px rgb(163, 163, 163);
+        transition: 1s;
+    }
+
+    .topimage:hover {
+        width: 200px;
+        margin: 25px;
+        border: 2px solid rgb(255, 145, 0);
+        border-radius: 5px;
+        box-shadow: 0px 1px 20px 2px rgb(139, 0, 167);
+    }
+    
+
+    .infopar {
+        margin: 0px 80px 0px 80px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+
+    #btt  {
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .backtotop {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+
+
+    .infopar {
+        margin: 0px 5px 0px 5px;
+    }
+    
+    p {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    dt {
+        font-size: 18px;
+    }
+
+    dd {
+        font-size: 12px;
+        font-style: italic;
+    }
+
+}
