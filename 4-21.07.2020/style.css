@@ -1,0 +1,105 @@
+
+/* Ispod 600px */
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.col-1, .col-2, #dugme{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.celaforma {
+  position: absolute;
+  width: 100%;
+  padding: 30px 20px 30px 20px;
+  background-color: rgb(194, 202, 206);
+}
+
+textarea {
+  min-height: 150px;
+  max-height: 300px;
+  height: 150px;
+  width: 100%;
+}
+
+
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(175, 175, 175);
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.lupa { 
+  font-family: FontAwesome;
+}
+
+label {
+  padding: 10px 10px 10px 0px;
+}
+
+
+#dugme {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: 10px;
+}
+
+#dugme:hover {
+  background-color: #1b8b1e;
+  border-radius: 25px;
+}
+
+
+
+
+
+/* Iznad 600px*/
+
+
+
+@media screen and (min-width: 600px) {
+
+  
+    [class*="col-"] {
+      float: left;
+    }
+
+    .col-1 {
+      width: 25%;
+      margin-top: 20px;
+    }
+
+    .col-2 {
+      width: 75%;
+      margin-top: 10px;
+    }
+
+    input, select, textarea {
+      padding: 12px;
+      border: 1px solid rgb(143, 143, 143);
+      border-radius: 4px;
+    }
+
+
+    #dugme {
+      width: 18%;
+      float: right;
+    }
+
+    .pretraga {
+      width: 35%;
+      margin-right: 40%;
+    }
+
+}
