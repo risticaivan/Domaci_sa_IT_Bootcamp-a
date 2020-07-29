@@ -2,7 +2,7 @@
 console.log("1. Zadatak");
 
 // Ferenhajti u Kelvine
-let F = 440.33; // Farenhajt
+let F = 200; // Farenhajt
 let FtoC = (F - 32) * 5/9; // Farenhajt to Celzijus
 console.log(`${F} Farenhajta je ${FtoC + 273.15} Kelvina`);
 
