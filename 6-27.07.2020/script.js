@@ -70,9 +70,9 @@ document.getElementById("z1").style.color="red";
 // 2. Zadatak
 console.log("2. Zadatak");
 
-let n = 15; // broj gostiju
+let n = 3; // broj gostiju
 console.log(`Trenutan broj gostiju : ${n}`);
-let v = 40; // povrsina kafica
+let v = 8; // povrsina kafica
 let ppg = 3 // dozvoljena povrsina po gostu
 let max = Math.trunc(v / ppg); // dozvoljen broj gostiju
 console.log(`Dozvoljen broj gostiju : ${max}`);
