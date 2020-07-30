@@ -70,26 +70,29 @@ document.getElementById("z1").style.color="red";
 // 2. Zadatak
 console.log("2. Zadatak");
 
-let n = 2;
-let v = 45;
-let ppg = 3 // povrsina po gostu
-let max = v / ppg;
+let n = 15; // broj gostiju
+console.log(`Trenutan broj gostiju : ${n}`);
+let v = 40; // povrsina kafica
+let ppg = 3 // dozvoljena povrsina po gostu
+let max = Math.trunc(v / ppg); // dozvoljen broj gostiju
+console.log(`Dozvoljen broj gostiju : ${max}`);
+
 let mere;
 
-if (n < max) {
-    console.log("Mere se postuju.");
-    mere = "Mere se postuju."
+if (n <= max) {
+    mere = "Mere SE postuju."
+    console.log("Mere SE postuju.");
 }
 else {
-    console.log("Mere se ne postoju");
-    mere = "Mere se ne postoju."
+    mere = "Mere se NE postoju."
+    console.log("Mere se NE postoju.");
 }
 if (n > max) {
-    console.log(`${n - max} ljudi treba da napusti`)
-    mere = `${n - max} treba da napustiobjekat.`;
+    mere = `${n - max} treba da napusti objekat.`;
+    console.log(`${n - max} treba da napusti objekat.`);
 }
 
-document.getElementById("z2").innerHTML=`${mere}`;
+document.getElementById("z2").innerHTML=`Dozvoljen broj gostiju : ${max}, a ${mere}`;
 document.getElementById("z2").style.color="blue";
 
 
