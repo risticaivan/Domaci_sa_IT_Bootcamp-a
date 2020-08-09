@@ -35,7 +35,7 @@ let sumaElemenataSaParnimIndeksom = niz => {
     return suma;
 };
 
-console.log(`Suma elemenata niza sa neparnim indexom je: ${sumaElemenataSaParnimIndeksom(niz)}`);
+console.log(`Suma elemenata niza sa parnim indexom je: ${sumaElemenataSaParnimIndeksom(niz)}`);
 
 
 console.log("3. Zadatak");
