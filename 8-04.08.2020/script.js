@@ -34,11 +34,11 @@ let godina = godRodjenja => {
     return trenutnaGodina - godRodjenja;
     }
     else {
-        return "0";
+        return 0;
     }
 }
 
-console.log(`Osoba ima ${godina(1994)} godina.`);
+console.log(`Osoba ima ${godina(2121)} godina.`);
 
 
 
